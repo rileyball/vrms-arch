@@ -227,11 +227,11 @@ class LicenseFinder(object):
         
         if (amountOfNonFree > 100):
             print("Richard Stallman would be extremely disappointed")
-        else if (amountOfNonFree >= 50):
+        elif (amountOfNonFree >= 50):
             print("That is too many. Reinstall the entire distribution")
-        else if (amountOfNonFree >= 10):
+        elif (amountOfNonFree >= 10):
             print("You're getting there. This is still absolutely proprietary though")
-        else if (amountOfNonFree == 1):
+        elif (amountOfNonFree == 1):
             print("Do you really need that package?")
         else:
             print("I'm proud of you - RMS")
