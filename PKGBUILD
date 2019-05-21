@@ -7,11 +7,11 @@ pkgver=0.1.0.r2.g96957a5
 pkgrel=1
 pkgdesc="vrms for ArchLinux"
 arch=('any')
-url="https://github.com/orospakr/${pkgname}"
+url="https://github.com/rileyball/${pkgname}"
 license=('custom:BSD3')
 makedepends=('git')
 depends=('python' 'pyalpm')
-source=("git+https://github.com/orospakr/${pkgname}.git")
+source=("git+https://github.com/rileyball/${pkgname}.git")
 md5sums=('SKIP')
 
 pkgver() {
