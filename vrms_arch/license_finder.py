@@ -223,7 +223,7 @@ class LicenseFinder(object):
         for nfpackage in self.nonfree_packages:
             print("%s: %s" % (nfpackage.name, nfpackage.licenses))
 
-        print("\nNon-free packages: %d\n" % amountOfNonFree, file=sys.stderr)
+        print("\nNon-free packages: %d\n" % len(self.nonfree_packages), file=sys.stderr)
         
         if (amountOfNonFree > 100):
             print("Richard Stallman would be extremely disappointed")
