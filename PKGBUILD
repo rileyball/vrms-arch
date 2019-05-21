@@ -1,6 +1,7 @@
-# Maintainer : Andrew Clunis <andrew@orospakr.ca>
+# Maintainer : Riley Carpenter <riley.carpenter@protonmail.com>
 # Contributor: Ben R <thebenj88 *AT* gmail *DOT* com>
 # Contributor : Loïc Bidoux <loic.bidoux [at] owndata.org>
+# Contributor : Riley Carpenter <riley.carpenter@protonmail.com>
 
 pkgname=vrms-arch
 pkgver=0.1.0.r25.gbb5e07e
