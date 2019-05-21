@@ -231,7 +231,7 @@ class LicenseFinder(object):
         elif (len(self.nonfree_packages) >= 10):
             print("You're getting there. This is still absolutely proprietary though")
         elif (len(self.nonfree_packages) < 10 and len(self.nonfree_packages) > 1):
-            print("God you're so close. Why do you still have those " + len(self.nonfree_packages) + "packages?")
+            print("God you're so close. Why do you still have those " + str(len(self.nonfree_packages)) + "packages?")
         elif (len(self.nonfree_packages) == 1):
             print("Do you really need that package?")
         else:
