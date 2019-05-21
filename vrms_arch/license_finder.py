@@ -219,9 +219,20 @@ class LicenseFinder(object):
             print("%s: %s" % (upackage.name, upackage.licenses))
 
     def list_all_nonfree_packages(self):
+        amountOfNonfree = int(len(self.nonfree_packages))
         for nfpackage in self.nonfree_packages:
             print("%s: %s" % (nfpackage.name, nfpackage.licenses))
 
-        print("\nNon-free packages: %d\n" % len(self.nonfree_packages), file=sys.stderr)
-
+        print("\nNon-free packages: %d\n" % amountOfNonFree, file=sys.stderr)
+        
+        if (amountOfNonFree > 100):
+            print("Richard Stallman would be extremely disappointed")
+        else if (amountOfNonFree >= 50):
+            print("That is too many. Reinstall the entire distribution")
+        else if (amountOfNonFree >= 10):
+            print("You're getting there. This is still absolutely proprietary though")
+        else if (amountOfNonFree == 1):
+            print("Do you really need that package?")
+        else:
+            print("I'm proud of you - RMS")
         print("However, there are %d ambiguously licensed packages that vrms cannot certify." % len(self.unknown_packages), file=sys.stderr)
