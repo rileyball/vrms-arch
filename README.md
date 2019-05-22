@@ -5,6 +5,8 @@ considered by OSI, FSF, and/or the DFSG to be Free Software) installed
 on an ArchLinux system.  See `vrms_arch/license_finder.py` for the
 license categorization.
 
+This fork was made by Riley Carpenter as a way to add humor to the results. 
+
 Copyright (C) 2013
 Andrew Clunis <[andrew@orospakr.ca](mailto:andrew@orospakr.ca)>.
 
