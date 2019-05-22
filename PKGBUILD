@@ -3,10 +3,10 @@
 # Contributor : Loïc Bidoux <loic.bidoux [at] owndata.org>
 # Contributor : Riley Carpenter <riley.carpenter@protonmail.com>
 
-pkgname=vrms-arch
+pkgname=vrms-arch-funny
 pkgver=0.1.0.r25.gbb5e07e
 pkgrel=1
-pkgdesc="vrms for ArchLinux"
+pkgdesc="vrms for ArchLinux but funny"
 arch=('any')
 url="https://github.com/rileyball/${pkgname}"
 license=('custom:BSD3')
